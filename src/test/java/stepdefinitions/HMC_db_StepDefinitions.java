@@ -9,9 +9,10 @@ public class HMC_db_StepDefinitions {
     String username="techproed";
     String password="P2s@rt65";
 
-    Connection connection;
-    Statement statement;
-    ResultSet resultSet;
+    Connection connection; // DATAbase 'e bağlanmamız sağlar
+    Statement statement; // qery calıştırmamız sağlıyor
+    ResultSet resultSet; // qery sonucunda dönen sonucu sto etmemiziz sağlıyor
+
 
 
 
